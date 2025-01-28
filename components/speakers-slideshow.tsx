@@ -65,8 +65,8 @@ const speakers: Speaker[] = [
   },
   {
     name: "Justin Maier",
-    position: "-",
-    company: "-",
+    position: "Founder & CEO",
+    company: "Civitai",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/justin_maier-VnwIh2pMzp2UmyJkbDnLygoYC634cy.webp",
   },
   {

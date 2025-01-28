@@ -15,40 +15,44 @@ interface BlogPost {
 
 const blogPosts: BlogPost[] = [
   {
-    title: "Comparing Flux on Freepik and MidJourney: Which AI Image Generator Is Right for You?",
+    title: "How to create scenes with multiple shots using Hunyuan",
     excerpt:
-      "In the rapidly evolving world of AI-powered image generation, both Flux on Freepik and MidJourney stand out as leading tools for creators. Each has its unique strengths, but understanding which one aligns best with your needs can be tricky.",
-    date: "January 16, 2024",
+      "Video creation just got smarter with Hunyuan V2, one of the latest modes added to Freepik AI Video Generator. If you’re looking for an easy way to add multiple shots to your videos without wasting time or credits, this is definitely the mode for you. Thanks to its New shot feature, Hunyuan helps creators like you produce outstanding videos with multiple cuts more efficiently, maintaining character and scene consistency.",
+    date: "January 20, 2025",
     image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Blog_CoverENG.jpg-6nwsNRbiBkfMzhD7mI0r9ipomBaIT9.jpeg",
-    category: "Technology Launches",
+      "https://mediablog.cdnpk.net/sites/9/2025/01/Blog-Cover.jpg",
+    category: "AI - Tips and Trends",
+    url: "https://www.freepik.com/blog/multiple-shots-with-hunyuan/",
   },
   {
-    title: "Flux 1.1 Pro: Try the newest AI generation mode first on Freepik",
+    title: "Your guide to 2025 graphic trends by Freepik",
     excerpt:
-      "The wait is over—FLUX 1.1 Pro, developed by Black Forest Labs, is officially live! This release takes everything you love about generative AI and cranks it up to eleven.",
-    date: "January 15, 2024",
+      "On 2025, design feels like it’s having a moment. You know, the kind of moment where everything shifts, and suddenly, the way we create isn’t all aesthetics anymore—it’s connection. It’s about making you think and experience. The rules? Tossed out. The possibilities for the next trends? Endless.",
+    date: "January 15, 2025",
     image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Group-4565458-1-vbq8TZp5FkVhJfJ3C6rznYcJAGTkCO.jpeg",
-    category: "Technology Launches",
+      "https://mediablog.cdnpk.net/sites/9/2025/01/Cover.jpg",
+      category: "Inspirational - Tips and Trends",
+    url: "https://www.freepik.com/blog/2025-graphic-trends/",
   },
   {
-    title: "AI video generator: Stunning visuals from text or image",
+    title: "7 style trends to watch in 2025 – Freepik’s take",
     excerpt:
-      "You know what they say: a picture is worth a thousand words. But, what about a video? A video is worth everything. They captivate, tell stories, and immerse your audience in a way no other medium can.",
-    date: "January 12, 2024",
+      "So, another year of design madness wraps up. A year packed with jaw-dropping creations and tech doing its thing. And guess what? We’re already gearing up for the next one. AI has been flexing hard—new tools, smarter workflows, and ideas that seemed impossible a year ago suddenly feel like child’s play. But no matter how much the tech levels up; the soul of creation stays untouched. It’s still about you and the message you want to throw out into the world.",
+    date: "December 27, 2024",
     image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/BLOG_COVER_1280x720_EN-x2.png-hRuhJR2Rym8vH0DTevKwSP13D8IhtS.jpeg",
-    category: "AI Tools",
+      "https://mediablog.cdnpk.net/sites/9/2024/12/COVER_StyleTrends2025_1280x720.png",
+    category: "AI - Tips and Trends",
+    url: "https://www.freepik.com/blog/2025-style-trends/",
   },
   {
-    title: "Beats that sleigh: Royalty-free Christmas music",
+    title: "How to create your character with AI in minutes",
     excerpt:
-      "One of Freepik's latest additions, Freepik Tunes, is ringing the bells — it's time to grab some hot chocolate and embrace the festive ho-ho-ho spirit.",
-    date: "January 10, 2024",
+      "Ever since AI started jumping into the world of image generation and design, these tools just keep leveling up—bringing us features that are smarter and way more useful.",
+    date: "December 20, 2024",
     image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Beats-that-sleigh-3-1.png-1dYvqJR11Zx0TqOvBTpy4n6HV4aUKb.jpeg",
-    category: "AI Tools",
+      "https://mediablog.cdnpk.net/sites/9/2024/12/COVERBLOG.jpg",
+    category: "AI - Product updates",
+    url: "https://www.freepik.com/blog/custom-ai/",
   },
 ]
 

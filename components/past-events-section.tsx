@@ -22,99 +22,99 @@ interface PastEvent {
 const pastEvents: PastEvent[] = [
   {
     title: "Magnetic Presence - The Art of Unshakeable Confidence",
-    date: "March 2024",
-    location: "San Francisco",
+    date: "",
+    location: "",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/16_Magnetic%20Presence%20-%20The%20Art%20of%20Unshakeable%20Confidence%20and%20Relationship-Building-8GdCWpq281UM8j2M5tfcX7rvpEJtri.webp",
   },
   {
     title: "Gen Battle SF - Make A Short Film with AI Tools",
-    date: "March 2024",
-    location: "San Francisco",
+    date: "",
+    location: "",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/15_Gen%20Battle%20SF%20Make%20A%20Short%20Film%20with%20AI%20Tools-Mz03Yy2Aa89ZrYQaBeQNYhmIjRQto0.webp",
   },
   {
     title: "ElevenLabs x a16z Conversational AI Meetup",
-    date: "February 2024",
-    location: "San Francisco",
+    date: "",
+    location: "",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/14_ElevenLabs%20x%20a16z%20Conversational%20AI%20Meetup-lgzJgzyvDcdJFGvBtapSm3YMXzDB05.webp",
   },
   {
     title: "Authentic Authority",
-    date: "February 2024",
-    location: "San Francisco",
+    date: "",
+    location: "",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/11_Authentic%20Authority-DPv6njdBmgIUeNE2S0VeIKPmRahHVz.webp",
   },
   {
     title: "Project Odyssey Gala",
-    date: "January 2024",
-    location: "San Francisco",
+    date: "",
+    location: "",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10_Project%20Odyssey%20Gala-qnwIsel7kUFUSbLoAIvPRWxtwWz3g7.webp",
   },
   {
     title: "Women in Tech Amplified Voices",
-    date: "January 2024",
-    location: "San Francisco",
+    date: "",
+    location: "",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/09_Women%20in%20Tech%20Amplified%20Voices-zKrUO0AeluJ2qrihEfJgsL4NoTaxwg.webp",
   },
   {
     title: "Become an AI Designer with Freepik",
-    date: "March 2024",
-    location: "San Francisco",
+    date: "",
+    location: "",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/01_Become%20an%20AI%20Designer%20with%20Freepik-ITu25qjX2kJoHiG9t6ZZ1VI8JyVBtm.webp",
   },
   {
     title: "Neighborhood Design by Freepik",
-    date: "March 2024",
-    location: "San Francisco",
+    date: "",
+    location: "",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/02_Neighborhood%20Design%20by%20Freepik%20(Video)-eESJzw94oQXszODTIcGJ9f3s6wDddi.webp",
   },
   {
     title: "Own Your Reputation + Attract Opportunities",
-    date: "February 2024",
-    location: "San Francisco",
+    date: "",
+    location: "",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/03_Own%20Your%20Reputation%20+%20Attract%20Opportunities-xrb1KaaxWYI5nRUyWCqM4x3hQX9Bpl.webp",
   },
   {
     title: "Config Conference",
-    date: "February 2024",
-    location: "San Francisco",
+    date: "",
+    location: "",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/04_Config%20Conference-fdcPiLsP2ntHdHlsoJEaCKwSGOPkEW.webp",
   },
   {
     title: "Next-Gen Narratives - AI's Role in the Future of Film",
-    date: "January 2024",
-    location: "San Francisco",
+    date: "",
+    location: "",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/05_Next-Gen%20Narratives%20-%20AIs%20Role%20in%20the%20Future%20of%20Film-JGCHOycNYorqOIkCc0hfCuWkFhD1Iq.webp",
   },
   {
     title: "Creatives Meetup: Gaming and AI at GDC",
-    date: "January 2024",
-    location: "San Francisco",
+    date: "",
+    location: "",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/06_Creatives%20Meetup%20Gaming%20and%20AI%20at%20GDC-SjlJR7XfFvaIlN0UERbt2SHxsoSvgi.webp",
   },
   {
     title: "Redefining Design with AI",
-    date: "January 2024",
-    location: "San Francisco",
+    date: "",
+    location: "",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/07_Redefining%20Design%20with%20AI-0LIoif7jmIulVIsE4g5zD3mVLH6DSK.webp",
   },
   {
     title: "Defeat the Imposter",
-    date: "December 2023",
-    location: "San Francisco",
+    date: "",
+    location: "",
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/08_Defeat%20the%20Imposter-23PoIbFZdbkOcQvywxgmAlJ1rQXLeD.webp",
   },
@@ -250,7 +250,7 @@ export function PastEventsSlideshow() {
                   <div className="space-y-1 text-left">
                     <div className="font-semibold">{event.title}</div>
                     <div className="text-sm text-gray-400">
-                      {event.date} • {event.location}
+                      {event.date || event.location ? `${event.date} • ${event.location}` : null}
                     </div>
                   </div>
                 </div>
@@ -286,7 +286,7 @@ export function PastEventsSlideshow() {
 
       <div className="sr-only" aria-live="polite">
         {`Showing events ${Math.ceil(currentIndex / ITEMS_PER_VIEW)} of ${Math.ceil(
-          pastEvents.length / ITEMS_PER_VIEW,
+          pastEvents.length / ITEMS_PER_VIEW
         )} pages`}
       </div>
     </div>
@@ -307,4 +307,3 @@ export function PastEventsSection() {
     </div>
   )
 }
-

@@ -11,7 +11,7 @@ interface BlogPost {
   date: string
   image: string
   category: string
-  slug?: string
+  url: string // Ahora esta propiedad es requerida
 }
 
 interface BlogCardProps {
@@ -20,10 +20,8 @@ interface BlogCardProps {
 }
 
 export function BlogCard({ post, index }: BlogCardProps) {
-  // const slug = post.slug || post.title.toLowerCase().replace(/[^a-z0-9]+/g, "-")
-
   return (
-    <Link href="https://www.freepik.com" target="_blank" rel="noopener noreferrer" className="h-full">
+    <Link href={post.url} target="_blank" rel="noopener noreferrer" className="h-full">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -64,4 +62,3 @@ export function BlogCard({ post, index }: BlogCardProps) {
     </Link>
   )
 }
-
