@@ -37,7 +37,7 @@ export function NavBar() {
 
   return (
     <header className="fixed top-0 z-50 w-full bg-black/80 backdrop-blur-sm" role="banner">
-      <div className="container mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
+      <div className="container mx-auto flex h-16 max-w-6xl items-center justify-between">
         <Link href="/" className="h-5" aria-label="Freepik - Home">
           <Image
             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/freepik_white_logo-Nwtjmx8LjGbKeQZHTFI5CvjvPrlrmW.png"

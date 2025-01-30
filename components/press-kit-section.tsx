@@ -1,9 +1,7 @@
-import Link from "next/link"
-
 export function PressKitSection() {
   return (
     <section className="py-16 bg-[#111111]">
-      <div className="container mx-auto max-w-6xl px-4">
+      <div className="container mx-auto max-w-6xl">
         <div className="space-y-4">
           <h4 className="title-h4 leading-tight">Newsroom for Journalists and Partners</h4>
           <p className="text-base text-gray-400">
