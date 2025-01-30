@@ -1,8 +1,7 @@
 // Extraer el Footer a su propio componente para mejor mantenibilidad
 import Link from "next/link"
 import Image from "next/image"
-import { Facebook, Twitter, Instagram, Youtube } from "lucide-react"
-import { FaPinterest } from "react-icons/fa"
+import { BsTwitterX, BsFacebook, BsInstagram, BsPinterest, BsYoutube  } from "react-icons/bs";
 
 export function Footer() {
   return (
@@ -29,28 +28,28 @@ export function Footer() {
             <nav aria-label="Social media links">
               <ul className="flex space-x-4">
                 <li>
-                  <Link href="https://www.facebook.com/Freepik" aria-label="Follow us on Facebook">
-                    <Facebook className="w-6 h-6 text-gray-400 hover:text-white transition-colors" />
+                  <Link href="https://www.facebook.com/Freepik/" aria-label="Follow us on Facebook">
+                    <BsFacebook className="w-6 h-6 text-gray-400 hover:text-white transition-colors" />
                   </Link>
                 </li>
                 <li>
-                  <Link href="" aria-label="Follow us on Twitter">
-                    <Twitter className="w-6 h-6 text-gray-400 hover:text-white transition-colors" />
+                  <Link href="https://x.com/freepik/" aria-label="Follow us on Twitter">
+                    <BsTwitterX className="w-6 h-6 text-gray-400 hover:text-white transition-colors" />
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" aria-label="Follow us on Pinterest">
-                    <FaPinterest className="w-6 h-6 text-gray-400 hover:text-white transition-colors" />
+                  <Link href="https://co.pinterest.com/freepik/" aria-label="Follow us on Pinterest">
+                    <BsPinterest className="w-6 h-6 text-gray-400 hover:text-white transition-colors" />
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" aria-label="Follow us on Instagram">
-                    <Instagram className="w-6 h-6 text-gray-400 hover:text-white transition-colors" />
+                  <Link href="https://www.instagram.com/freepik/" aria-label="Follow us on Instagram">
+                    <BsInstagram className="w-6 h-6 text-gray-400 hover:text-white transition-colors" />
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" aria-label="Subscribe to our YouTube channel">
-                    <Youtube className="w-6 h-6 text-gray-400 hover:text-white transition-colors" />
+                  <Link href="https://www.youtube.com/@freepik" aria-label="Subscribe to our YouTube channel">
+                    <BsYoutube className="w-6 h-6 text-gray-400 hover:text-white transition-colors" />
                   </Link>
                 </li>
               </ul>

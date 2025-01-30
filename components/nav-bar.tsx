@@ -70,10 +70,7 @@ export function NavBar() {
         {/* Mobile Navigation */}
         <Sheet open={isOpen} onOpenChange={setIsOpen}>
           <SheetTrigger asChild className="md:hidden">
-            <Button variant="ghost" size="icon" className="text-white justify-end" aria-label="Open menu">
-              <Menu className="h-6 w-6" />
-              <span className="sr-only">Open menu</span>
-            </Button>
+            <Menu className="h-5 w-5 opacity-70 hover:opacity-100 duration-200 cursor-pointer " />
           </SheetTrigger>
           <SheetContent side="right" className="w-[300px] bg-black/95 p-0">
             <nav className="flex h-full flex-col" aria-label="Mobile navigation">
