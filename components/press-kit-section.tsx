@@ -1,6 +1,6 @@
 export function PressKitSection() {
   return (
-    <section className="py-16 bg-[#111111]">
+    <section className="py-16 bg-[#111111] px-6">
       <div className="container mx-auto max-w-6xl">
         <div className="space-y-4">
           <h4 className="title-h4 leading-tight">Newsroom for Journalists and Partners</h4>

@@ -72,12 +72,12 @@ export function PartnersSection() {
   return (
     <div className="container mx-auto max-w-6xl">
       <h3 className="title-h3 leading-tight mb-16 text-center">Collaborators</h3>
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-12 md:gap-16">
+      <div className="flex flex-wrap justify-center sm:gap-8 lg:gap-16 gap-20 items-center">
         {partners.map((partner) => (
           <div key={partner.name} className="flex flex-col items-center justify-center">
             <div className="relative h-12" style={{ width: partner.width }}>
               <Image
-                src={partner.logo || "/placeholder.svg"}
+                src={partner.logo || "assets/placeholder.svg"}
                 alt={`${partner.name} logo`}
                 fill
                 className="object-contain"

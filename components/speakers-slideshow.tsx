@@ -255,7 +255,7 @@ export function SpeakersSlideshow() {
                 <div>
                   <div className="mb-4 overflow-hidden rounded-lg" style={{ height: "300px" }}>
                     <Image
-                      src={speaker.image || "/placeholder.svg"}
+                      src={speaker.image || "assets/placeholder.svg"}
                       alt={`Portrait of ${speaker.name}`}
                       width={260}
                       height={300}

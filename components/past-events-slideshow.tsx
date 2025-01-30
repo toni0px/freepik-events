@@ -20,12 +20,12 @@ interface PastEvent {
 }
 
 const pastEvents: PastEvent[] = [
-  { title: "AI & Design Summit", date: "October 2024", location: "San Francisco", image: "/placeholder.svg" },
-  { title: "Creative Tech Conference", date: "September 2024", location: "San Francisco", image: "/placeholder.svg" },
-  { title: "Future of Creativity", date: "August 2024", location: "San Francisco", image: "/placeholder.svg" },
+  { title: "AI & Design Summit", date: "October 2024", location: "San Francisco", image: "assets  /placeholder.svg" },
+  { title: "Creative Tech Conference", date: "September 2024", location: "San Francisco", image: "assets/placeholder.svg" },
+  { title: "Future of Creativity", date: "August 2024", location: "San Francisco", image: "assets/placeholder.svg" },
   { title: "Design Systems Workshop", date: "July 2024", location: "San Francisco", image: "/placeholder.svg" },
-  { title: "AI Tools Showcase", date: "June 2024", location: "San Francisco", image: "/placeholder.svg" },
-  { title: "Creative Innovation Summit", date: "May 2024", location: "San Francisco", image: "/placeholder.svg" },
+  { title: "AI Tools Showcase", date: "June 2024", location: "San Francisco", image: "assets/placeholder.svg" },
+  { title: "Creative Innovation Summit", date: "May 2024", location: "San Francisco", image: "assets/placeholder.svg" },
 ]
 
 export function PastEventsSlideshow() {

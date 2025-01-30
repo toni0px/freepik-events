@@ -1,0 +1,16 @@
+{
+  "name": "Freepik SF",
+  "short_name": "Freepik SF",
+  "description": "Join our vibrant community in San Francisco, where AI, design, and creativity converge for networking, collaboration, and learning.",
+  "icons": [
+    {
+      "src": "/favicons/favicon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#8C3FE8",
+  "background_color": "#1C1C1C",
+  "display": "standalone",
+  "start_url": "/"
+} 

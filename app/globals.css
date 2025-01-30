@@ -4,6 +4,7 @@
 
 html, body {
   background-color: black; /* Oculta el fondo blanco */
+  overflow-x: hidden;
 }
 
 @layer base {

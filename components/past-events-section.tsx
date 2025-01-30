@@ -240,7 +240,7 @@ export function PastEventsSlideshow() {
                 <div>
                   <div className="mb-4 overflow-hidden rounded-2xl" style={{ height: "450px" }}>
                     <Image
-                      src={event.image || "/placeholder.svg"}
+                      src={event.image || "assets/placeholder.svg"}
                       alt={`Photo from ${event.title}`}
                       width={620}
                       height={450}
@@ -297,10 +297,10 @@ export function PastEventsSection() {
   return (
     <div className="space-y-8">
       <div className="space-y-4">
-        <h2 id="past-events-heading" className="title-h2 leading-tight">
+        <h2 id="past-events-heading" className="title-h2 leading-tight px-1">
           Past Events
         </h2>
-        <p className="text-base text-gray-400 max-w-3xl">A legacy of innovation building a community of creators</p>
+        <p className="text-base text-gray-400 max-w-3xl px-1">A legacy of innovation building a community of creators</p>
       </div>
 
       <PastEventsSlideshow />

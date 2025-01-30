@@ -37,7 +37,7 @@ export function BlogCard({ post, index }: BlogCardProps) {
           <CardContent className="p-0 flex flex-col h-full">
             <div className="relative h-48 overflow-hidden flex-shrink-0">
               <Image
-                src={post.image || "/placeholder.svg"}
+                src={post.image || "assets/placeholder.svg"}
                 alt={post.title}
                 width={400}
                 height={200}

@@ -7,7 +7,7 @@ import { motion, AnimatePresence } from "framer-motion"
 
 export function HeroSection() {
   return (
-    <section aria-labelledby="hero-heading" className="relative px-4 pt-32 md:pt-40 pb-16 bg-black">
+    <section aria-labelledby="hero-heading" className="relative px-6 pt-32 md:pt-40 pb-16 bg-black">
       <div className="container mx-auto max-w-6xl relative overflow-visible">
         <div className="flex flex-col md:flex-row justify-between items-start relative min-h-[400px]">
           <div className="relative z-10 max-w-2xl">

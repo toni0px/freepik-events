@@ -6,7 +6,7 @@ import { FaPinterest } from "react-icons/fa"
 
 export function Footer() {
   return (
-    <footer className="px-4 py-8 bg-black" role="contentinfo">
+    <footer className="px-6 py-8 bg-black" role="contentinfo">
       <div className="container mx-auto max-w-6xl">
         <div className="flex flex-col space-y-8">
           <div>
@@ -29,12 +29,12 @@ export function Footer() {
             <nav aria-label="Social media links">
               <ul className="flex space-x-4">
                 <li>
-                  <Link href="#" aria-label="Follow us on Facebook">
+                  <Link href="https://www.facebook.com/Freepik" aria-label="Follow us on Facebook">
                     <Facebook className="w-6 h-6 text-gray-400 hover:text-white transition-colors" />
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" aria-label="Follow us on Twitter">
+                  <Link href="" aria-label="Follow us on Twitter">
                     <Twitter className="w-6 h-6 text-gray-400 hover:text-white transition-colors" />
                   </Link>
                 </li>
@@ -61,27 +61,22 @@ export function Footer() {
             <nav aria-label="Freepik company projects">
               <ul className="flex flex-wrap gap-4 text-sm text-gray-400">
                 <li>
-                  <Link href="#" className="hover:text-white transition-colors">
+                  <Link href="https://www.freepik.com/" className="hover:text-white transition-colors">
                     Freepik
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-white transition-colors">
+                  <Link href="https://www.flaticon.com/" className="hover:text-white transition-colors">
                     Flaticon
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-white transition-colors">
+                  <Link href="https://slidesgo.com/" className="hover:text-white transition-colors">
                     Slidesgo
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-white transition-colors">
-                    Wepik
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="hover:text-white transition-colors">
+                  <Link href="https://www.videvo.net/" className="hover:text-white transition-colors">
                     Videvo
                   </Link>
                 </li>

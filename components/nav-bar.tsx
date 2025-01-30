@@ -37,7 +37,7 @@ export function NavBar() {
 
   return (
     <header className="fixed top-0 z-50 w-full bg-black/80 backdrop-blur-sm" role="banner">
-      <div className="container mx-auto flex h-16 max-w-6xl items-center justify-between">
+      <div className="container mx-auto flex h-16 max-w-6xl items-center justify-between px-6 xl:px-0">
         <Link href="/" className="h-5" aria-label="Freepik - Home">
           <Image
             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/freepik_white_logo-Nwtjmx8LjGbKeQZHTFI5CvjvPrlrmW.png"
@@ -70,7 +70,7 @@ export function NavBar() {
         {/* Mobile Navigation */}
         <Sheet open={isOpen} onOpenChange={setIsOpen}>
           <SheetTrigger asChild className="md:hidden">
-            <Button variant="ghost" size="icon" className="text-white" aria-label="Open menu">
+            <Button variant="ghost" size="icon" className="text-white justify-end" aria-label="Open menu">
               <Menu className="h-6 w-6" />
               <span className="sr-only">Open menu</span>
             </Button>

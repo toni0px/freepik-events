@@ -68,8 +68,8 @@ export function BlogSection() {
         transition={{ duration: 0.8, ease: [0.21, 0.45, 0.27, 0.9] }}
         className="space-y-4"
       >
-        <h2 className="title-h2 leading-tight">Latest News</h2>
-        <p className="text-base text-gray-400 max-w-3xl">
+        <h2 className="title-h2 leading-tight px-1">Latest News</h2>
+        <p className="text-base text-gray-400 max-w-3xl px-1">
           Empowering designers, creatives, and professionals
           <br />
           to bring their vision to life.

@@ -167,7 +167,7 @@ export function ImageGrid() {
                   }}
                 >
                   <Image
-                    src={image.src || "/placeholder.svg"}
+                    src={image.src || "assets/placeholder.svg"}
                     alt={image.alt}
                     width={400}
                     height={getImageHeight(image.columnIndex, image.position) === "small" ? SMALL_HEIGHT : LARGE_HEIGHT}
